@@ -11,9 +11,13 @@
 .container-title{
   margin-bottom: 20px;
 }
+.game-board{
+  display: flex;
+  flex-direction: column;
+}
 .square{
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   padding: 10px 20px;
   font-size: 20px;
 }

@@ -1,11 +1,14 @@
 import './App.css'
+import {useState} from 'react';
 function SquareComponent()
 {
-  return <button className='square' onClick={handleClick}>X</button>
+  const[value,setValue] = useState(null)
+  const handleClick=()=>{
+    setValue('X');
+   }
+   return <button className='square' onClick={handleClick}>{value}</button>
 }
-function handleClick(){
-  console.log("Clicked")
-}
+
 function App() {
   return (
     <>
