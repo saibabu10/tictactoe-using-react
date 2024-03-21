@@ -1,7 +1,10 @@
 import './App.css'
 function SquareComponent({value})
 {
-  return <button className='square'>{value}</button>
+  return <button className='square' onClick={handleClick}>{value}</button>
+}
+function handleClick(){
+  console.log("Clicked")
 }
 function App() {
   return (
