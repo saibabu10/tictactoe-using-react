@@ -1,7 +1,7 @@
 import './App.css'
-function SquareComponent({value})
+function SquareComponent()
 {
-  return <button className='square' onClick={handleClick}>{value}</button>
+  return <button className='square' onClick={handleClick}>X</button>
 }
 function handleClick(){
   console.log("Clicked")
@@ -13,19 +13,19 @@ function App() {
       <div className='container-title'>Tic Tac Toe Game</div>
       <div className='game-board'>
       <div>
-      <SquareComponent value="1"/>
-<SquareComponent value={2}/>
-<SquareComponent value={3}/>
+      <SquareComponent/>
+<SquareComponent/>
+<SquareComponent/>
       </div>
       <div>
-      <SquareComponent value={4}/>
-      <SquareComponent value={5}/>
-      <SquareComponent value={6}/>
+      <SquareComponent/>
+      <SquareComponent/>
+      <SquareComponent/>
       </div>
       <div>
-      <SquareComponent value={7}/>
-      <SquareComponent value={8}/>
-      <SquareComponent value={9}/>
+      <SquareComponent/>
+      <SquareComponent/>
+      <SquareComponent/>
       </div>
       </div>
     </div>
