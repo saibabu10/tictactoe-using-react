@@ -1,23 +1,32 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-*{
-  background-color: black;
-  color: white;
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
 }
 .container-title{
-  margin-bottom: 20px;
+  padding: 20px 0px;
 }
 .game-board{
   display: flex;
   flex-direction: column;
 }
-.square{
-  width: 50px;
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
   height: 50px;
-  padding: 10px 20px;
-  font-size: 20px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 50px;
 }
+

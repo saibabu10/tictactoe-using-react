@@ -15,17 +15,17 @@ function App() {
     <div className="container">
       <div className='container-title'>Tic Tac Toe Game</div>
       <div className='game-board'>
-      <div>
+      <div className='board-row'>
       <SquareComponent/>
 <SquareComponent/>
 <SquareComponent/>
       </div>
-      <div>
+      <div className='board-row'>
       <SquareComponent/>
       <SquareComponent/>
       <SquareComponent/>
       </div>
-      <div>
+      <div className='board-row'>
       <SquareComponent/>
       <SquareComponent/>
       <SquareComponent/>
