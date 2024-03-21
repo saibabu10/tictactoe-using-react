@@ -16,6 +16,7 @@ body {
   flex-direction: column;
 }
 .square {
+  cursor: pointer;
   background: #fff;
   border: 1px solid #999;
   float: left;
