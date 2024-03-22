@@ -58,7 +58,7 @@ function App() {
     <>
     <div className="container">
       <div className='container-title'>Tic Tac Toe Game</div>
-      <div>{status}</div>
+      <div className='status'>{status}</div>
       <div className='game-board'>
       <div className='board-row'>
       <SquareComponent value={squares[0]} onSquareClick={()=>handleClick(0)}/>

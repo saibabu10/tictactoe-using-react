@@ -10,6 +10,7 @@ body {
 }
 .container-title{
   padding: 20px 0px;
+  font-size: 30px;
 }
 .game-board{
   display: flex;
@@ -30,4 +31,7 @@ body {
   text-align: center;
   width: 50px;
 }
-
+.status{
+  font-size: 20px;
+  padding-bottom: 10%;
+}
